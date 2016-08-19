@@ -1,0 +1,30 @@
+{
+  "name": "fastclone",
+  "version": "1.0.0",
+  "description": "The fast way to deep clone datas",
+  "homepage": "https://github.com/hotoo/fastclone",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hotoo/fastclone.git"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- --harmony --reporter spec --timeout 2000 --inline-diffs ./test/*.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "3",
+    "eslint-config-egg": "3",
+    "should": "^11.1.0",
+    "benchmark": "^2.1.1",
+    "deep-assign": "^2.0.0",
+    "assign-deep": "^0.4.5",
+    "fast-clone": "^1.3.0",
+    "clone": "^1.0.2",
+    "extend": "^3.0.0",
+    "clone-deep": "^0.2.4",
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.2",
+    "object-assign": "^4.1.0"
+  },
+  "author": "闲耘 <hotoo.cn@gmail.com> (http://hotoo.me)"
+}
