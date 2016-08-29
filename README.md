@@ -46,6 +46,7 @@ JSON.parse(JSON.stringify()) x           3,351 ops/sec ±1.75% (90 runs sampled)
                   clone-deep x           1,215 ops/sec ±1.30% (89 runs sampled)
                       extend x          86,917 ops/sec ±1.61% (85 runs sampled)
 ----------------- Fastest is :                      extend
+      ✓ benchmark: deep clone big data (32695ms)
 ```
 
 ## Compares
