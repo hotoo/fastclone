@@ -21,7 +21,24 @@
       "num": 1,
       "number": 1234567890987654321,
       "bool": true,
-      "arr": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1234567890987654321, true, false, "string" ]
+      "arr": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1234567890987654321, true, false, "string",
+        {
+          "str": "value",
+          "string": "Long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long string.",
+          "num": 1,
+          "number": 1234567890987654321,
+          "bool": true,
+          "arr": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1234567890987654321, true, false, "string" ]
+        }
+      ],
+      "obj": {
+        "str": "value",
+        "string": "Long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long string.",
+        "num": 1,
+        "number": 1234567890987654321,
+        "bool": true,
+        "arr": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1234567890987654321, true, false, "string" ]
+      }
     }
   ]
 }
